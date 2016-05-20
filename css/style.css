@@ -1,0 +1,163 @@
+
+/*------------------------------media-----------------------------*/
+@media screen and (max-width:768px) {                              /*стили для телефонов до 768 пх*/
+
+.swimming>li:nth-child(1)>a>h2{font-size:75px;
+							height:512px;	}
+}
+@media screen and (min-width:768px) {
+
+.swimming>li:nth-child(1)>a>h2{font-size:55px;}
+}
+@media screen and (min-width:992px){
+	ul{display:flex;
+	 flex-flow: row wrap;
+	}
+	li{min-width:50%;}	
+	.swimming>li:nth-child(1)	{
+	height:512px;
+	}
+	.swimming>li:nth-child(2)	{
+	height:512px;
+	}
+	.swimming>li:nth-child(1)>a>h2{font-size:42px;}
+}
+@media screen and (min-width:1200px){
+	ul{display:flex;
+	  flex-flow: row wrap;
+	 	}
+	li{min-width:25%;
+      max-width:25%;	
+	}		
+	.swimming>li:nth-child(1)	{
+	height:256px;
+	}
+	.swimming>li:nth-child(2)	{
+	height:256px;
+	}
+
+		
+	
+}
+/*------------------------------Foto№1-----------------------------*/
+.swimming>li:nth-child(1){
+	
+	background-image:url(../img/champ.png);
+	}
+	.swimming>li:nth-child(1)>a{background-color: rgba(69,76,157,0.6);}
+
+	
+	
+/*------------------------------Foto№2-----------------------------*/	
+.swimming>li:nth-child(2)	{
+	background-image:url(../img/child.png);
+	}
+	.swimming>li:nth-child(2)>a{background-color: rgba(140,158,88,0.6);}	
+	
+/*------------------------------Foto№3-----------------------------*/	
+.swimming>li:nth-child(3)	{
+	background-image:url(../img/newpool.png);
+	}
+	.swimming>li:nth-child(3)>a{background-color: rgba(10,133,146,0.6);}
+/*------------------------------Foto№4-----------------------------*/
+.swimming>li:nth-child(4)	{
+	background-image:url(../img/interior.png);
+	}
+	.swimming>li:nth-child(4)>a{background-color: rgba(6,54,119,0.6);}
+/*------------------------------Foto№5-----------------------------*/
+.swimming>li:nth-child(5)	{
+	background-image:url(../img/training.png);
+	}
+	.swimming>li:nth-child(5)>a{background-color: rgba(61,130,174,0.6);}
+/*------------------------------Foto№6-----------------------------*/
+.swimming>li:nth-child(6)	{
+	background-image:url(../img/sport.png);
+	}
+	.swimming>li:nth-child(6)>a{background-color: rgba(69,58,168,0.6);}
+/*------------------------------Foto№7-----------------------------*/
+.swimming>li:nth-child(7)	{
+	background-image:url(../img/celebrity.png);
+	}
+	.swimming>li:nth-child(7)>a{background-color: rgba(159,129,58,0.6);}
+/*------------------------------Foto№8-----------------------------*/
+.swimming>li:nth-child(8)	{
+	background-image:url(../img/kid.png);
+	}
+	.swimming>li:nth-child(8)>a{background-color: rgba(100,55,64,0.6);}
+
+
+
+.swimming>li{
+	height:256px;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	
+	
+	}
+.swimming{
+	
+	 list-style: none;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+	
+h2{
+	font-size:42px;
+	color:#fff;
+}
+a {	display:flex;
+	align-items:center;
+	justify-content:center;
+	text-align:center;
+	font-size:42px;
+	height:100%;
+	width:100%;
+	text-decoration:none;
+	
+}
+
+
+/*-----------------------------header-----------------------------*/
+
+/*------------------------------main------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------footer-----------------------------*/
